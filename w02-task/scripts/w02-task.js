@@ -24,6 +24,9 @@ const imageElement = ('images/IMG_20230911_132428.jpg')
 
 
 /* Step 4 - Adding Content */
+nameElement.innerHTML = `<strong>${fullName}</strong>`;
+
+imageElement.setAttribute('src', profilePicture);
 
 
 
