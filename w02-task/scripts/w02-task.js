@@ -39,6 +39,7 @@ imageElement.setAttribute('src', profilePicture);
 
 
 
+
 /* Step 5 - Array */
 
 
