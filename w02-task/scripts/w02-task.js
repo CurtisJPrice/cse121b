@@ -13,7 +13,7 @@ currentYear.textContent = year;
 let myImage = new Image;
 myImage.src = 'images/IMG_20230911_132428.jpg';
 
-let foodElement = document.getElementById('food');
+let food = document.getElementById('food');
 
 
 
@@ -45,4 +45,4 @@ imageElement.setAttribute('src', profilePicture);
 
 
 /* Step 5 - Array */
-foodElement = ['???']
+foodElement.setArray = ['???']
