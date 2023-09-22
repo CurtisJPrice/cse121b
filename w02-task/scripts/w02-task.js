@@ -45,7 +45,7 @@ let food = document.getElementById('food');
 
 const foodElement = food
 
-const foods = ['Enchiladas', ' Tacos', ' Arroz con frijoles', ' Quesadillas']
+const food = ['Enchiladas', ' Tacos', ' Arroz con frijoles', ' Quesadillas']
 
 
 
