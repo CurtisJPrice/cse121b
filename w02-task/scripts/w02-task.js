@@ -5,9 +5,13 @@
 /* Step 2 - Variables */
 let fullName = 'Curtis J. Price';
 
-let currentYear = '#year';
+let year = 2023;
 
-let profilePicture = 'images/IMG_20230911_132428.jpg';
+let currentYear = document.getElementById('year');
+currentYear.textContent = year;
+
+let myImage = new Image;
+myImage.src = 'images/IMG_20230911_132428.jpg';
 
 
 
