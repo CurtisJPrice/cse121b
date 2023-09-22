@@ -41,10 +41,10 @@ imageElement.setAttribute('src', profilePicture);
 
 
 /* Step 5 - Array */
-const food = ['Enchiladas', ' Tacos', ' Arroz con frijoles', ' Quesadillas']
-
 let food = document.getElementById('food');
 food.textContent = food;
+
+const food = ['Enchiladas', ' Tacos', ' Arroz con frijoles', ' Quesadillas']
 
 let anotherFood = "Yogurt"
 
