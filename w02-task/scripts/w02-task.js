@@ -23,7 +23,7 @@ const nameElement = document.getElementById('name');
 
 const yearElement = document.querySelector('#year');
 
-const imageElement = ('images/IMG_20230911_132428.jpg')
+const imageElement = ('images/IMG_20230911_132428.jpg');
 
 
 
