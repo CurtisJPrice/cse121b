@@ -41,24 +41,24 @@ imageElement.setAttribute('src', profilePicture);
 
 
 /* Step 5 - Array */
-const foods = ['Enchiladas', ' Tacos', ' Arroz con frijoles', ' Quesadillas']
+const food = ['Enchiladas', ' Tacos', ' Arroz con frijoles', ' Quesadillas']
 
 let food = document.getElementById('food');
-food.textContent = foods;
+food.textContent = food;
 
 let anotherFood = "Yogurt"
 
-foods.push(anotherFood);
+food.push(anotherFood);
 
-food.textContent = foods;
+food.textContent = food;
 
-foods.shift();
+food.shift();
 
-food.textContent = foods;
+food.textContent = food;
 
-foods.pop();
+food.pop();
 
-food.textContent = foods;
+food.textContent = food;
 
 
 
