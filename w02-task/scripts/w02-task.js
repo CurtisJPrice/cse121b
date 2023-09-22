@@ -25,6 +25,8 @@ const yearElement = document.querySelector('#year');
 
 const imageElement = ('images/IMG_20230911_132428.jpg');
 
+const foodElement = document.getElementById('food');
+
 
 
 
