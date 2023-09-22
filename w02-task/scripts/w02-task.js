@@ -13,6 +13,8 @@ currentYear.textContent = year;
 let myImage = new Image;
 myImage.src = 'images/IMG_20230911_132428.jpg';
 
+let foodElement = document.getElementById('food');
+
 
 
 
