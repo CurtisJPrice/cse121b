@@ -34,6 +34,8 @@ nameElement.innerHTML = `<strong>${fullName}</strong>`;
 
 imageElement.setAttribute('src', profilePicture);
 
+foodElement.innerHTML += '<br>${favFoods}';
+
 
 
 
