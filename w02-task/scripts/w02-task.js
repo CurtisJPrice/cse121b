@@ -17,6 +17,8 @@ myImage.src = 'images/IMG_20230911_132428.jpg';
 
 
 /* Step 3 - Element Variables */
+document.querySelector('img').setAttribute('src', 'images/IMG_20230911_132428.jpg');
+
 const nameElement = document.getElementById('name');
 
 const yearElement = document.querySelector('#year');
