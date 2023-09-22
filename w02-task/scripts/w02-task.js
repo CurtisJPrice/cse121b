@@ -13,8 +13,6 @@ currentYear.textContent = year;
 let myImage = new Image;
 myImage.src = 'images/IMG_20230911_132428.jpg';
 
-let food = document.getElementById('food');
-
 
 
 
@@ -26,8 +24,6 @@ const nameElement = document.getElementById('name');
 const yearElement = document.querySelector('#year');
 
 const imageElement = ('images/IMG_20230911_132428.jpg');
-
-const foodElement = document.getElementById('food');
 
 
 
@@ -45,4 +41,21 @@ imageElement.setAttribute('src', profilePicture);
 
 
 /* Step 5 - Array */
-foodElement.setArray = ['???']
+const foods = ['Enchiladas', ' Tacos', ' Arroz con frijoles', ' Quesadillas']
+
+let food = document.getElementById('food');
+food.textContent = foods;
+
+let anotherFood = "Yogurt"
+
+foods.push(anotherFood);
+
+food.textContent = foods;
+
+foods.shift();
+
+food.textContent = foods;
+
+foods.pop();
+
+food.textContent = foods;
