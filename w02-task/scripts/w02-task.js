@@ -45,16 +45,16 @@ foodElement.innerHTML += `<strong>${food}</strong>`;
 
 
 /* Step 5 - Array */
-foodElement = ['Fettucini', 'Steak', 'Chicken', 'Shrimp'];
+foodElement = ['Pizza', 'Chicken Strips', 'Fried Chicken', 'Indian Fry Bred'];
 
-document.querySelector('#food').textContent = favoriteFoods;
+document.querySelector('#food').textContent = food;
 
-document.querySelector('#food').textContent = favoriteFoods;
+document.querySelector('#food').textContent = food;
 
 food.shift();
 
-document.querySelector('#food').textContent = favoriteFoods;
+document.querySelector('#food').textContent = food;
 
 food.pop();
 
-document.querySelector('#food').textContent = favoriteFoods;
+document.querySelector('#food').textContent = food;
