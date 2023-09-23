@@ -45,7 +45,7 @@ foodElement.innerHTML += `<strong>${food}</strong>`;
 
 
 /* Step 5 - Array */
-const foodElement = ['Fettucini', 'Steak', 'Chicken', 'Shrimp'];
+foodElement = ['Fettucini', 'Steak', 'Chicken', 'Shrimp'];
 
 document.querySelector('#food').textContent = favoriteFoods;
 
