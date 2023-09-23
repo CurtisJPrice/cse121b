@@ -13,7 +13,7 @@ currentYear.textContent = year;
 let myImage = new Image;
 myImage.src = 'images/IMG_20230911_132428.jpg';
 
-let food = document.getElementById('food');
+let foodElement = document.getElementById('food');
 
 
 
@@ -26,10 +26,6 @@ const nameElement = document.getElementById('name');
 const yearElement = document.querySelector('#year');
 
 const imageElement = ('images/IMG_20230911_132428.jpg');
-
-const favoriteFoods = ['Fettucini', 'Steak', 'Chicken', 'Shrimp'];
-
-const anotherFavoriteFood = 'Baked Potato';
 
 
 
@@ -49,16 +45,16 @@ foodElement.innerHTML += `<strong>${food}</strong>`;
 
 
 /* Step 5 - Array */
-document.querySelector('#food').textContent = favoriteFoods;
-
-favoriteFoods.push(anotherFavoriteFood);
+const foodElement = ['Fettucini', 'Steak', 'Chicken', 'Shrimp'];
 
 document.querySelector('#food').textContent = favoriteFoods;
 
-favoriteFoods.shift();
+document.querySelector('#food').textContent = favoriteFoods;
+
+food.shift();
 
 document.querySelector('#food').textContent = favoriteFoods;
 
-favoriteFoods.pop();
+food.pop();
 
 document.querySelector('#food').textContent = favoriteFoods;
