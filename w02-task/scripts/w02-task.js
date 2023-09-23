@@ -15,6 +15,8 @@ myImage.src = 'images/IMG_20230911_132428.jpg';
 
 let foodElement = document.getElementById('food');
 
+let food = foodElement
+
 
 
 
