@@ -1,62 +1,31 @@
 /* W02-Task - Profile Home Page */
 
 /* Step 1 - Setup type tasks - no code required */
+const fullName = "Curtis J. Price";
 
 /* Step 2 - Variables */
-let fullName = 'Curtis J. Price';
-
-let year = 2023;
-
-let currentYear = document.getElementById('year');
-currentYear.textContent = year;
-
-let myImage = new Image;
-myImage.src = 'images/IMG_20230911_132428.jpg';
-
-let foodElement = document.getElementById('food');
-
-let food = foodElement
-
-
-
+const currentYear = new Date().getFullYear();
+let profilePicture = "images/IMG_20230911_132428.jpg";
 
 /* Step 3 - Element Variables */
-document.querySelector('img').setAttribute('src', 'images/IMG_20230911_132428.jpg');
-
-const nameElement = document.getElementById('name');
-
-const yearElement = document.querySelector('#year');
-
-const imageElement = ('images/IMG_20230911_132428.jpg');
-
-
-
+const nameElement = document.getElementById("name");
+const foodElement = document.getElementById("food");
+const yearElement = document.querySelector("#year");
+const imageElement = document.querySelector("img");
 
 
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
-
-imageElement.setAttribute('src', profilePicture);
-
-foodElement.innerHTML += `<strong>${food}</strong>`;
-
-
-
-
-
+yearElement.textContent = currentYear;
+imageElement.setAttribute("alt", `Profile image of ${fullName}`);
 
 
 /* Step 5 - Array */
-foodElement = ['Pizza', 'Chicken Strips', 'Fried Chicken', 'Indian Fry Bred'];
-
-document.querySelector('#food').textContent = food;
-
-document.querySelector('#food').textContent = food;
-
-food.shift();
-
-document.querySelector('#food').textContent = food;
-
-food.pop();
-
-document.querySelector('#food').textContent = food;
+let foodFav = [" Chicken", " Pizza", " Red Velvet Cake"]
+foodElement.textContent = foodFav;
+let foodFav1 = foodFav.push(" Peanut Butter Sandwich");
+foodElement.innerHTML += `<br>${foodFav}`;
+let foodFav2 = foodFav.shift();
+foodElement.innerHTML += `<br>${foodFav}`;
+let foodFav3 = foodFav.pop();
+foodElement.innerHTML += `<br>${foodFav}`;
