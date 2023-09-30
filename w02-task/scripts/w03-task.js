@@ -67,20 +67,6 @@ document
 
 
 /* Decision Structure */
-function addNumbers(){
-    const firstNumber = document.querySelector("#addend1").value
-    const secondNumber = document.querySelector("#addend2").value
-    const sum = add(firstNumber,secondNumber)
-    document.querySelector("#sum").value = sum
-    
-        console.log("First Number:", firstNumber)
-        console.log("Second Number:", secondNumber)
-        console.log("Sum", sum)
-}
-document.querySelector("#addNumbers").addEventListener('click', addNumbers);
-
-
-
 const currentDate = new Date();
 
 let currentYear;
