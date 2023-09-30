@@ -2,10 +2,19 @@
 
 /* FUNCTIONS */
 /* Function Definition - Add Numbers */
-    function add(number1, number2){
-        const sum = number1 + number2
-        return sum
-    }
+function add(number1, number2) {
+    return number1 + number2;
+}
+
+function addNumbers() {
+    let addend1 = parseInt(document.querySelector("#addend1").value);
+    let addend2 = parseInt(document.querySelector("#addend2").value);
+    let result = add(addend1, addend2);
+
+    document.querySelector("#sum").value = result;
+}
+
+document.querySelector("#addNumbers").addEventListener("click", addNumbers);
 
 
 /* Function Expression - Subtract Numbers */
