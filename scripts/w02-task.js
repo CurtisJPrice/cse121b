@@ -21,7 +21,7 @@ imageElement.setAttribute("alt", `Profile image of ${fullName}`);
 
 
 /* Step 5 - Array */
-let foodFav = [" Chicken", " Pizza", " Red Velvet Cake", " Cereal", " Oven Puff Pancakes"]
+let foodFav = [" Chicken", " Pizza", " Red Velvet Cake", " Oven Puff Pancakes"]
 foodElement.textContent = foodFav;
 let foodFav1 = foodFav.push(" Peanut Butter Sandwich");
 foodElement.innerHTML += `<br>${foodFav}`;
