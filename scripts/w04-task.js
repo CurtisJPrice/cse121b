@@ -26,8 +26,6 @@ let myProfile = {
 myProfile.placesLived.push({place: "Eagle Creek, Oregon", length: "2 years-onward"});
 myProfile.placesLived.push({place: "Sheridan, Oregon", length: "3 years"});
 myProfile.placesLived.push({place: "Casper, Wyoming", length: "5 Years"});
-myProfile.placesLived.push({place: "Pahrump, Nevada", length: "10 Years"});
-myProfile.placesLived.push({place: "Indian Springs, Nevada", length: "5 Years"});
 
 
 
