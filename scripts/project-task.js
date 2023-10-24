@@ -32,7 +32,7 @@ const getTemples = async () => {
     //In the function, declare a const variable named response that awaits the built-in fetch method calling the temple data, absolute URL given in Step 2 above
     const response = await fetch("Parks-List.json");
     parkList = await response.json();
-    displayTemples(parkList);
+    displayParks(parkList);
     console.log(parkList);
 
 }
@@ -47,15 +47,15 @@ const sortBy = (parks) => {
     reset();
     switch (document.querySelector('#sortBy').value) {
         case "coast":
-            displayTemples(parks.filter(park => park.location.includes("Utah")));
+            displayParks(parks.filter(park => park.location.includes("Utah")));
             break;
         case "not-coast":
-            displayTemples(parks.filter(park => !park.location.includes("Utah")));
+            displayParks(parks.filter(park => !park.location.includes("Utah")));
             break;
         case "older":
-            displayTemples(parks.filter(park => new Date (park.dedication) < new Date ( 1950, 0, 1)));
+            displayParks(parks.filter(park => new Date (park.dedication) < new Date ( 1950, 0, 1)));
         case "all":
-            displayTemples(parks);
+            displayParks(parks);
             break;
     }
 }
