@@ -18,25 +18,5 @@
     "parkName": "Tahoe National Forest",
     "id": 14172,
     "imageUrl": "https://www.fs.usda.gov/Internet/FSE_MEDIA/fseprd728251.jpg"
-    },
-    {
-    "parkName": "Joshua Tree National Park",
-    "id": 14236,
-    "imageUrl": "Joshua Tree National Park"
-    },
-    {
-    "parkName": "San Bernardino National Forest",
-    "id": 14108,
-    "imageUrl": "San Bernardino National Forest"
-    },
-    {
-    "parkName": "Humboldt-Toiyabe National Forest",
-    "id": 29310,
-    "imageUrl": "Humboldt-Toiyabe National Forest"
-    },
-    {
-    "parkName": "Cleveland National Forest",
-    "id": 14013,
-    "imageUrl": "Cleveland National Forest"
     }
 ]
