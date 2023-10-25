@@ -1,74 +1,42 @@
 [
     {
+    "parkName": "Plumas National Forest",
     "id": 14099,
-    "name": "Plumas National Forest"
+    "imageUrl": "https://plumascounty.org/wp-content/uploads/2022/06/Grass-Lake-All-Trails-1024x683.jpg"
     },
     {
+    "parkName": "Six Rivers National Forest",
     "id": 14143,
-    "name": "Six Rivers National Forest"
+    "imageUrl": "https://www.fs.usda.gov/Internet/FSE_MEDIA/stelprdb5228335.jpg"
     },
     {
+    "parkName": "Mendocino National Forest",
     "id": 14079,
-    "name": "Mendocino National Forest"
+    "name": "https://www.fs.usda.gov/Internet/FSE_MEDIA/stelprdb5156993.jpg"
     },
     {
+    "parkName": "Tahoe National Forest",
     "id": 14172,
     "name": "Tahoe National Forest"
     },
     {
+    "parkName": "Joshua Tree National Park",
     "id": 14236,
     "name": "Joshua Tree National Park"
     },
     {
+    "parkName": "San Bernardino National Forest",
     "id": 14108,
     "name": "San Bernardino National Forest"
     },
     {
+    "parkName": "Humboldt-Toiyabe National Forest",
     "id": 29310,
     "name": "Humboldt-Toiyabe National Forest"
     },
     {
+    "parkName": "Cleveland National Forest",
     "id": 14013,
     "name": "Cleveland National Forest"
-    },
-    {
-    "id": 1366,
-    "name": "Jackson Demonstration State Forest"
-    },
-    {
-    "id": 14138,
-    "name": "Siskiyou National Forest"
-    },
-    {
-    "id": 25126,
-    "name": "Santa Rosa and San Jacinto Mountains National Monument"
-    },
-    {
-    "id": 1652,
-    "name": "Mount San Jacinto State Park"
-    },
-    {
-    "id": 1630,
-    "name": "Mendocino Headlands State Park"
-    },
-    {
-    "id": 1960,
-    "name": "Manchester State Park"
-    },
-    {
-    "id": 12543,
-    "name": "Truckee River Wildlife Area"
-    },
-    {
-    "id": 4018,
-    "name": "Santa Rosa and San Jacinto Mountains National Monument"
-    },
-    {
-    "id": 1613,
-    "name": "Malakoff Diggins State Historic Park"
-    },
-    {
-    "id": 1995,
-    "name": "Van Damme State Park"
     }
 ]

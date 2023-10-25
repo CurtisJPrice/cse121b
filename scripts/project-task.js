@@ -5,10 +5,10 @@ let parkList = [];
 
 
 const displayTemples = (parks) => {
-    temples.forEach(park => {
+    parks.forEach(park => {
         let articleElement = document.createElement("article");
-        let templeName = document.createElement("h3");
-        templeName.textContent = temple.templeName;
+        let parkName = document.createElement("h3");
+        parkName.textContent = park.parkName;
         let img = document.createElement("img");
 
         img.setAttribute('src', park.imageUrl);
@@ -29,7 +29,7 @@ const displayTemples = (parks) => {
 
 const getTemples = async () => {
 
-    const response = await fetch("Parks-List.json");
+    const response = await fetch("https://curtisjprice.github.io/cse121b/Parks-List.json");
     parkList = await response.json();
     displayParks(parkList);
     console.log(parkList);
@@ -45,10 +45,10 @@ const reset = () => {
 const sortBy = (parks) => {
     reset();
     switch (document.querySelector('#sortBy').value) {
-        case "state":
+        case "State":
             displayParks(parks.filter(park => park.location.includes("Oregon")));
             break;
-        case "not-state":
+        case "notstate":
             displayParks(parks.filter(park => !park.location.includes("Oregon")));
             break;
         case "all":
